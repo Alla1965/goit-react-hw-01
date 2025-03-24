@@ -1,0 +1,19 @@
+.ListItemAvatar {
+  margin: 20px;
+}
+.ListItemName {
+  font-size: 36px;
+  margin: 20px;
+  font-weight: 600;
+}
+.ListItemIsOnline {
+  font-size: 24px;
+}
+.ListItemIsOnlineGreen {
+  font-size: 24px;
+  color: green;
+}
+.ListItemIsOnlineRed {
+  font-size: 24px;
+  color: red;
+}

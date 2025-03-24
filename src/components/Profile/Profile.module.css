@@ -1,0 +1,66 @@
+.profile {
+  width: 900px;
+  text-align: center;
+  /* justify-items: center; */
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 0px;
+  padding-top: 16px;
+  background-color: #f9f9f9;
+  font-size: 48px;
+}
+.profileInfo {
+  border-bottom: 4px solid gray;
+}
+.profileAvatar {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.profileName {
+  /* font-size: 36px; */
+  font-weight: bold;
+}
+
+.profileTag {
+  /* font-size: 36px; */
+  color: gray;
+}
+
+.profileLocation {
+  font-style: italic;
+}
+
+.profileStats {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+.profileStats li {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-right: 2px solid gray;
+  border-left: 2px solid gray;
+  background: rgb(193, 192, 192);
+}
+
+/* .profileStats li span {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+} */
+.spanKey {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+}
+.spanValue {
+  font-weight: 800;
+}
